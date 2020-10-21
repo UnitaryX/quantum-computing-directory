@@ -1,0 +1,17 @@
+name = "UnitaryX"
+license = "MIT"
+licenselink = "https://github.com/UnitaryX/quantum-computing-directory/blob/main/LICENSE"
+description = "Directory of Quantum"
+homepage = "https://github.com/UnitaryX/quantum-computing-directory"
+repo = "https://github.com/UnitaryX/quantum-computing-directory"
+#tags = ["documentation", "grav", "learn", "doc", "search"]
+#features = ["documentation", "menu", "nested sections", "search", "mermaid"]
+
+[author]
+name = "Cheng Chen"
+homepage = "https://github.com/it2911"
+
+[original]
+name = "UnitaryX"
+homepage = "https://github.com/UnitaryX"
+repo = "https://github.com/UnitaryX/quantum-computing-directory"

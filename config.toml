@@ -1,0 +1,46 @@
+baseURL = "https://dic.qlearn.dev"
+languageCode = "en-US"
+#defaultContentLanguage = "en"
+
+title = "量子计算术语字典"
+theme = "hugo-theme-learn"
+themesdir = "themes"
+#defaultContentLanguageInSubdir= true
+
+#copyright = "Created And Maintanced by Cheng Chen"
+
+# For search functionality
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+#[params]
+#  description = "Documentation for Quantum Learning Website"
+#  author = "成臣"
+#  showVisitedLinks = true
+#  disableBreadcrumb = false
+#  disableNextPrev = false
+
+[params]
+# Description of the site, will be used in meta information
+description = "Documentation for Quantum Learning Website"
+# Author of the site, will be used in meta information
+author = "Cheng Chen"
+# Shows a checkmark for visited pages on the menu
+showVisitedLinks = true
+
+#[Languages]
+#[Languages.zh]
+#title = "量子学习文档"
+#weight = 1
+#languageName = "中文"
+
+[[menu.shortcuts]]
+name = "<i class='fab fa-github'></i> Github repo"
+identifier = "ds"
+url = "https://github.com/UnitaryX/qlearn.dev"
+weight = 10
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-tags'></i> Tags"
+url = "/tags"
+weight = 30
